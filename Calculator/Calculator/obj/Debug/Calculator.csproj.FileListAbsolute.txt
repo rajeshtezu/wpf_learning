@@ -1,0 +1,15 @@
+D:\repo\windows_applications\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\repo\windows_applications\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\repo\windows_applications\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\App.g.cs
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\MainWindow.baml
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.g.resources
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\repo\windows_applications\Calculator\Calculator\obj\Debug\App.baml
