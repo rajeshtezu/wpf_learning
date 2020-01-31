@@ -30,9 +30,12 @@ namespace Contacts {
 		}
 
 		private void deleteButton_Click(object sender, RoutedEventArgs e) {
-			using (SQLiteConnection connection = new SQLiteConnection(App.databasePath)) {
-				connection.CreateTable<Contact>();
-				connection.Delete(contact);
+			MessageBoxResult messageBoxResult = MessageBox.Show("Are you sure?", "Delete Confirmation", MessageBoxButton.YesNo);
+			if (messageBoxResult == MessageBoxResult.Yes) {
+				using (SQLiteConnection connection = new SQLiteConnection(App.databasePath)) {
+					connection.CreateTable<Contact>();
+					connection.Delete(contact);
+				}
 			}
 			
 			Close();

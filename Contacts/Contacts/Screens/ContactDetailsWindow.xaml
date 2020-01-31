@@ -22,7 +22,7 @@
 			<TextBox x:Name='phoneTextInput' Width='200' Margin='10,0,0,5'/>
 		</StackPanel>
 		
-		<Button x:Name='updateButton' Content='Update' Margin='0, 5, 0, 0' FontSize='14' Click='updateButton_Click'/>
-		<Button x:Name='deleteButton' Background='Red' Margin='0, 5, 0, 0' FontSize='14' Content='Delete' Click='deleteButton_Click'/>
+		<Button x:Name='updateButton' Content='Update' Cursor='Hand' Margin='0, 5, 0, 0' FontSize='14' Click='updateButton_Click'/>
+		<Button x:Name='deleteButton' Background='Red' Cursor='Hand' Margin='0, 5, 0, 0' FontSize='14' Content='Delete' Click='deleteButton_Click'/>
 	</StackPanel>
 </Window>

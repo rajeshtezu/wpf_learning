@@ -22,7 +22,7 @@
 			<Label Content='Phone' FontSize='14' />
 			<TextBox x:Name='phoneTextInput' Width='200' Margin='10,0,0,5'/>
 		</StackPanel>
-		
-		<Button x:Name='saveButton' Content='Save' Padding='0, 5, 0, 5' Margin='0, 30, 0, 0' FontSize='14' Click='saveButton_Click'/>
+
+		<Button x:Name='saveButton' Content='Save' Cursor='Hand' Padding='0, 5, 0, 5' Margin='0, 30, 0, 0' FontSize='14' Click='saveButton_Click'/>
 	</StackPanel>
 </Window>
