@@ -9,9 +9,21 @@
         Title="Contacts" Height="400" Width="350">
 
 	<StackPanel>
-		<Button x:Name='newContact' Content='New Contact' Margin='20' Padding='5' Click='newContact_Click' />
-
-		<TextBox Margin='20 0 20 10' Padding='5' TextChanged='TextBox_TextChanged' />
+		<StackPanel Orientation='Horizontal' Margin='18, 20, 0, 0' FlowDirection='LeftToRight'>
+			<Label Content='Search' FontSize='16' Width='265'/>
+			
+			<Image 
+				x:Name='plusImage' 
+				MouseDown='newContact_Click' 
+				Focusable='True' 
+				Source='static/images/plus.png' 
+				Width='30' 
+				Height='30'
+				HorizontalAlignment='Right'
+			/>
+		</StackPanel>
+		
+		<TextBox Margin='20 10 20 10' Padding='5' TextChanged='TextBox_TextChanged' />
 		<ListView x:Name='contactsListView' Height='280' SelectionChanged='contactsListView_SelectionChanged'>
 			<ListView.ItemTemplate>
 				<DataTemplate>
